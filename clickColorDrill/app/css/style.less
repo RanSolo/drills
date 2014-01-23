@@ -1,0 +1,13 @@
+ $(document).ready(initialize);
+ 
+function initialize(){
+ $('#add-color').click(clickAddColor);
+  }
+  function clickSelectColor(){
+         if($(this).hasClass('selected')){
+           $(this).removeClass('selected');
+             } else {
+               $('color').removeClass('selected');
+                 $(this).addClass('selected');
+              }
+              }
